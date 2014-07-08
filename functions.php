@@ -1,4 +1,5 @@
 <?php
+// ---------- CUSTOM DEFAULT AVATAR ----------
 add_filter( 'avatar_defaults', 'new_default_avatar' );
 
 function new_default_avatar ( $avatar_defaults ) {
